@@ -26,6 +26,7 @@
                             <h2 class="card-title mb-4 text-warning">{{ $train->azienda }}</h2>
                             <h4 class="card-subtitle mb-4">Stazione di partenza: {{ $train->stazione_di_partenza }}</h4>
                             <h4 class="card-subtitle mb-4">Stazione di arrivo: {{ $train->stazione_di_arrivo }}</h4>
+                            <p class="card-text"><strong>Giorno di partenza: </strong>{{ $train->data }}</p>
                             <p class="card-text"><strong>Orario di partenza: </strong>{{ $train->orario_di_partenza }}</p>
                             <p class="card-text"><strong>Orario di arrivo: </strong>{{ $train->orario_di_arrivo }}</p>
                             <p class="card-text"><strong>Codice treno: </strong>{{ $train->codice_treno }}</p>
